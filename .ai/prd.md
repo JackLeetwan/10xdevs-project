@@ -32,7 +32,7 @@ MVP rozwiązuje to, dostarczając minimalny, ale kompletny zestaw narzędzi: got
 
 3.4 Knowledge Base (CRUD)
 - Schema: title, url, note (wiele notatek per link), tags[], createdBy, updatedAt.
-- Dodawanie linku z kanonikalizacją URL i deduplikacją; pełnotekstowe wyszukiwanie (FTS5) oraz filtrowanie po tagach.
+- Dodawanie linku z kanonikalizacją URL i deduplikacją; pełnotekstowe wyszukiwanie (Postgres FTS) oraz filtrowanie po tagach.
 - Edycja i usuwanie wpisów; eksport JSON (import po MVP).
 
 3.5 Generatory danych (PL/DE/AT)
